@@ -38,7 +38,7 @@ class MSHomeViewController: MSViewController, CLLocationManagerDelegate, MKMapVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(MSHomeViewController.createGame(_:)))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(MSHomeViewController.createProfile(_:)))
         
         self.locationManager = CLLocationManager()
         self.locationManager.delegate = self
@@ -124,11 +124,16 @@ class MSHomeViewController: MSViewController, CLLocationManagerDelegate, MKMapVi
     
     //MARK: - My Functions
     
-    func createGame(btn: UIBarButtonItem){
-        print("createGame")
+    func createProfile(btn: UIBarButtonItem){
+        print("createProfile")
         
-        let createGameVc = MSCreateProfileViewController()
-        presentViewController(createGameVc, animated: true, completion: nil)
+        let createProfileVc = MSCreateProfileViewController()
+        createProfileVc.step = 0
+        let navCtr = UINavigationController(rootViewController: createProfileVc)
+        navCtr.navigationBarHidden = true
+        self.presentViewController(navCtr, animated: true, completion: {
+            
+        })
         
     }
     
