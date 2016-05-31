@@ -6,13 +6,13 @@
 	<dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-milkshake.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -22,7 +22,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BEEF70E4970ADF07FB7E76E52F67C00B</key>
+		<key>C6D9BF6D2E3E22DAB6C420C6B5224F66</key>
 		<dict>
 			<key>primary</key>
 			<true/>

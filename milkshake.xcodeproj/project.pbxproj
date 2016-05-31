@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0486F7198F51FFAAA6E5E3BE /* Pods_milkshake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD31E0F44A0E8DC431DF72EE /* Pods_milkshake.framework */; };
 		546D6A631CFCDB0900EC6B96 /* MSVenues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D6A621CFCDB0900EC6B96 /* MSVenues.swift */; };
-		79CC73C8B40B5EBDB1F8898C /* Pods_milkshake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A891CF915340511C77BCB40A /* Pods_milkshake.framework */; };
 		D376241A1CED0CB800787DDB /* MSGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37624191CED0CB800787DDB /* MSGame.swift */; };
 		D376241C1CED0CF300787DDB /* MSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376241B1CED0CF300787DDB /* MSViewController.swift */; };
 		D376241E1CED0D1500787DDB /* MSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376241D1CED0D1500787DDB /* MSHomeViewController.swift */; };
@@ -20,10 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		409DD209484D76D20C3AAEFE /* Pods-milkshake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.debug.xcconfig"; sourceTree = "<group>"; };
 		546D6A621CFCDB0900EC6B96 /* MSVenues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSVenues.swift; path = ../../../../../Katrina/Desktop/milkshake/milkshake/Models/MSVenues.swift; sourceTree = "<group>"; };
-		8609F5118544DF5D4FFF786E /* Pods-milkshake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.debug.xcconfig"; sourceTree = "<group>"; };
-		A891CF915340511C77BCB40A /* Pods_milkshake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milkshake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2E8B3DDCEEF3008ADAC181 /* Pods-milkshake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.release.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.release.xcconfig"; sourceTree = "<group>"; };
+		AD31E0F44A0E8DC431DF72EE /* Pods_milkshake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milkshake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37624191CED0CB800787DDB /* MSGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSGame.swift; sourceTree = "<group>"; };
 		D376241B1CED0CF300787DDB /* MSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSViewController.swift; sourceTree = "<group>"; };
 		D376241D1CED0D1500787DDB /* MSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSHomeViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		D37713631CEA4606005A0A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BAA2451CF2136900F55E7D /* MSCreateGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSCreateGameViewController.swift; sourceTree = "<group>"; };
 		D3BAA2471CF244AD00F55E7D /* x-mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-mark@2x.png"; sourceTree = "<group>"; };
+		EB1D7703F052F533F922206B /* Pods-milkshake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.release.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,18 +41,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79CC73C8B40B5EBDB1F8898C /* Pods_milkshake.framework in Frameworks */,
+				0486F7198F51FFAAA6E5E3BE /* Pods_milkshake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A55343AF206C338827246C4 /* Pods */ = {
+		4CBE02EF7D28B290C3D50160 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8609F5118544DF5D4FFF786E /* Pods-milkshake.debug.xcconfig */,
-				BF2E8B3DDCEEF3008ADAC181 /* Pods-milkshake.release.xcconfig */,
+				409DD209484D76D20C3AAEFE /* Pods-milkshake.debug.xcconfig */,
+				EB1D7703F052F533F922206B /* Pods-milkshake.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,8 +62,8 @@
 			children = (
 				D37713561CEA4606005A0A65 /* milkshake */,
 				D37713551CEA4606005A0A65 /* Products */,
-				9A55343AF206C338827246C4 /* Pods */,
-				F0E337F3343F76B7170CB28B /* Frameworks */,
+				4CBE02EF7D28B290C3D50160 /* Pods */,
+				F124B63E9A4ED74D2BBA5533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,10 +124,10 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		F0E337F3343F76B7170CB28B /* Frameworks */ = {
+		F124B63E9A4ED74D2BBA5533 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A891CF915340511C77BCB40A /* Pods_milkshake.framework */,
+				AD31E0F44A0E8DC431DF72EE /* Pods_milkshake.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,12 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D37713661CEA4606005A0A65 /* Build configuration list for PBXNativeTarget "milkshake" */;
 			buildPhases = (
-				9E19AB31294983CDD6C78146 /* Check Pods Manifest.lock */,
+				B298C5913879D28A94A6FBC9 /* 📦 Check Pods Manifest.lock */,
 				D37713501CEA4606005A0A65 /* Sources */,
 				D37713511CEA4606005A0A65 /* Frameworks */,
 				D37713521CEA4606005A0A65 /* Resources */,
-				C682EE04C532E131094103AA /* Embed Pods Frameworks */,
-				E24422DE9F1312EC8D1602BD /* Copy Pods Resources */,
+				B217C40C93D1DC5FAA89A6CD /* 📦 Embed Pods Frameworks */,
+				9D462F9CA87AE474A3BA4FB2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,29 +202,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9E19AB31294983CDD6C78146 /* Check Pods Manifest.lock */ = {
+		9D462F9CA87AE474A3BA4FB2 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-milkshake/Pods-milkshake-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C682EE04C532E131094103AA /* Embed Pods Frameworks */ = {
+		B217C40C93D1DC5FAA89A6CD /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,19 +232,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-milkshake/Pods-milkshake-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E24422DE9F1312EC8D1602BD /* Copy Pods Resources */ = {
+		B298C5913879D28A94A6FBC9 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-milkshake/Pods-milkshake-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +352,7 @@
 		};
 		D37713671CEA4606005A0A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8609F5118544DF5D4FFF786E /* Pods-milkshake.debug.xcconfig */;
+			baseConfigurationReference = 409DD209484D76D20C3AAEFE /* Pods-milkshake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = milkshake/Info.plist;
@@ -364,7 +364,7 @@
 		};
 		D37713681CEA4606005A0A65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2E8B3DDCEEF3008ADAC181 /* Pods-milkshake.release.xcconfig */;
+			baseConfigurationReference = EB1D7703F052F533F922206B /* Pods-milkshake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = milkshake/Info.plist;
