@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546D6A631CFCDB0900EC6B96 /* MSVenues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546D6A621CFCDB0900EC6B96 /* MSVenues.swift */; };
 		79CC73C8B40B5EBDB1F8898C /* Pods_milkshake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A891CF915340511C77BCB40A /* Pods_milkshake.framework */; };
 		D376241A1CED0CB800787DDB /* MSGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37624191CED0CB800787DDB /* MSGame.swift */; };
 		D376241C1CED0CF300787DDB /* MSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376241B1CED0CF300787DDB /* MSViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		546D6A621CFCDB0900EC6B96 /* MSVenues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSVenues.swift; path = ../../../../../Katrina/Desktop/milkshake/milkshake/Models/MSVenues.swift; sourceTree = "<group>"; };
 		8609F5118544DF5D4FFF786E /* Pods-milkshake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.debug.xcconfig"; sourceTree = "<group>"; };
 		A891CF915340511C77BCB40A /* Pods_milkshake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_milkshake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2E8B3DDCEEF3008ADAC181 /* Pods-milkshake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-milkshake.release.xcconfig"; path = "Pods/Target Support Files/Pods-milkshake/Pods-milkshake.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D37624191CED0CB800787DDB /* MSGame.swift */,
+				546D6A621CFCDB0900EC6B96 /* MSVenues.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				D3BAA2461CF2136900F55E7D /* MSCreateGameViewController.swift in Sources */,
 				D37624201CED0DA300787DDB /* MSCreateProfileViewController.swift in Sources */,
+				546D6A631CFCDB0900EC6B96 /* MSVenues.swift in Sources */,
 				D376241E1CED0D1500787DDB /* MSHomeViewController.swift in Sources */,
 				D37713581CEA4606005A0A65 /* AppDelegate.swift in Sources */,
 				D376241A1CED0CB800787DDB /* MSGame.swift in Sources */,
