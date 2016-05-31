@@ -170,11 +170,10 @@ class MSHomeViewController: MSViewController, CLLocationManagerDelegate, MKMapVi
                         self.mapView.addAnnotations(self.venues)
                 }
             }
+           }
         }
     }
-}
     
-<<<<<<< HEAD
     func createProfile(btn: UIBarButtonItem){
         print("createProfile")
         
@@ -185,20 +184,13 @@ class MSHomeViewController: MSViewController, CLLocationManagerDelegate, MKMapVi
         self.presentViewController(navCtr, animated: true, completion: {
             
         })
-=======
-    func createGame(btn: UIBarButtonItem){
-        print("createGame")
-        
-        let createGameVc = MSCreateProfileViewController()
-        presentViewController(createGameVc, animated: true, completion: nil)
-    }
+
     
     //MARK: - MapViewDelegate
     func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
     
         let annotation = annotation as? MSVenues
         let identifier = "pin"
->>>>>>> katrina
         
         if let dequeuedView = mapView.dequeueReusableAnnotationViewWithIdentifier(identifier) as? MKPinAnnotationView{
             return dequeuedView
